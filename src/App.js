@@ -11,6 +11,7 @@ import MovingAverageTimeSeries from './components/MovingAverageTimeSeries';
 import TrendLineTimeSeries from './components/TrendLineTimeSeries';
 import StackedBarChart from './components/StackedBarChart';
 import SunburstChart from './components/SunburstChart';
+import D3ScaleDemo from './components/D3ScaleDemo';
 
 var elements = [
   { elem: ( <BarChartElement />), title: "Bar Chart" },
@@ -18,6 +19,7 @@ var elements = [
   { elem: ( <GridLines />), title: "Grid Lines" },
   { elem: ( <PieChartSegment />), title: "Pie Chart Segment" },
   { elem: ( <ScatterPlotPoints />), title: "Scatter Plot Points" },
+  { elem: ( <D3ScaleDemo />), title: "D3 Scale Demo" },
   { elem: ( <LineChartElement />), title: "Line Chart" },
   { elem: ( <ColorScaleLegend />), title: "Color Scale Legend" },
   { elem: ( <AnnotationOnPoint />), title: "Annotation On Point" },
@@ -25,6 +27,7 @@ var elements = [
   { elem: ( <TrendLineTimeSeries />), title: "Trend Line Time Series" },
   { elem: ( <StackedBarChart />), title: "Stacked Bar Chart" },
   { elem: ( <SunburstChart />), title: "Sunburst Chart" },
+
 ]
 
 function App() {
